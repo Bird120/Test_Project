@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="Test_8cpp" kind="file" language="C++">
+    <compoundname>Test.cpp</compoundname>
+    <includes refid="Test_8hpp" local="yes">Test.hpp</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>Test.hpp</label>
+        <link refid="Test_8hpp_source"/>
+      </node>
+      <node id="1">
+        <label>src/Test.cpp</label>
+        <link refid="Test_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;Test.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="classMath_1ac9a24632c2d38861cd77825eb2c8aa71" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classMath_1ac9a24632c2d38861cd77825eb2c8aa71" kindref="member">Math::add</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>a,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>b)<sp/>{</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>a<sp/>+<sp/>b;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="classMath_1a4ae198493b11ba5d98e0c9fbcb9edff5" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classMath_1a4ae198493b11ba5d98e0c9fbcb9edff5" kindref="member">Math::square</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x)<sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>x<sp/>*<sp/>x;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="src/Test.cpp"/>
+  </compounddef>
+</doxygen>

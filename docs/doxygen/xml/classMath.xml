@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMath" kind="class" language="C++" prot="public">
+    <compoundname>Math</compoundname>
+    <includes refid="Test_8hpp" local="no">Test.hpp</includes>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMath_1ac9a24632c2d38861cd77825eb2c8aa71" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Math::add</definition>
+        <argsstring>(int a, int b)</argsstring>
+        <name>add</name>
+        <qualifiedname>Math::add</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Calculate the sum of two integers. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>a</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>first integer </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>b</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>second integer </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>sum of a and b </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/Test.hpp" line="10" column="16" bodyfile="src/Test.cpp" bodystart="3" bodyend="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classMath_1a4ae198493b11ba5d98e0c9fbcb9edff5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Math::square</definition>
+        <argsstring>(int x)</argsstring>
+        <name>square</name>
+        <qualifiedname>Math::square</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Calculate the sum of a square <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>int </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>x*x </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/Test.hpp" line="15" column="16" bodyfile="src/Test.cpp" bodystart="7" bodyend="9"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Une classe simple pour démonstration. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="include/Test.hpp" line="4" column="1" bodyfile="include/Test.hpp" bodystart="4" bodyend="16"/>
+    <listofallmembers>
+      <member refid="classMath_1ac9a24632c2d38861cd77825eb2c8aa71" prot="public" virt="non-virtual"><scope>Math</scope><name>add</name></member>
+      <member refid="classMath_1a4ae198493b11ba5d98e0c9fbcb9edff5" prot="public" virt="non-virtual"><scope>Math</scope><name>square</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
